@@ -1,0 +1,297 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Our Menu | The Daily Loaf Bakery</title>
+    <meta name="description" content="Explore freshly baked bread, cakes, pastries and sweet treats at The Daily Loaf Bakery.">
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+
+</head>
+
+<body class="menu-page">
+
+<header class="menu-header">
+    <div class="menu-header-inner">
+        <div class="menu-brand">
+            <h1>The Daily Loaf Bakery</h1>
+            <p>Freshly baked, made with love.</p>
+        </div>
+
+        <nav class="menu-navigation">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="menu.html" class="active">Menu</a>
+            <a href="enquiry.html">Enquiry</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </div>
+</header>
+
+<main>
+
+    <section class="menu-hero">
+        <span>MADE FRESH EVERY DAY</span>
+        <h2>Our Bakery Menu</h2>
+        <p>
+            Discover our delicious selection of freshly baked breads,
+            beautiful cakes, pastries and sweet treats.
+        </p>
+    </section>
+
+    <section class="menu-content">
+
+        <div class="menu-section-heading">
+            <h2>Explore Our Products</h2>
+            <p>Find something delicious to enjoy.</p>
+        </div>
+
+        <div class="menu-search-area">
+            <input
+                type="search"
+                id="menuSearch"
+                placeholder="Search for bread, cakes, pastries..."
+                aria-label="Search bakery products">
+
+            <button type="button" id="clearSearch">Clear</button>
+        </div>
+
+        <div class="menu-categories">
+            <button class="category-btn active" data-category="all">All Products</button>
+            <button class="category-btn" data-category="bread">Bread</button>
+            <button class="category-btn" data-category="cakes">Cakes</button>
+            <button class="category-btn" data-category="pastries">Pastries</button>
+            <button class="category-btn" data-category="treats">Sweet Treats</button>
+        </div>
+
+        <p id="searchResults" class="search-results" aria-live="polite"></p>
+
+        <div class="menu-grid" id="menuGrid">
+
+            <article class="menu-item" data-category="bread">
+                <img src="images/white bread.jpg.jpg" alt="Freshly baked bread">
+                <div class="product-details">
+                    <span class="product-category">FRESH BREAD</span>
+                    <h3>Fresh White Bread</h3>
+                    <p>Soft, freshly baked bread perfect for everyday meals.</p>
+                    <div class="product-bottom">
+                        <strong>R18.00</strong>
+                        <button class="add-to-cart" data-name="Fresh White Bread" data-price="18">
+                            Add to Cart
+                        </button>
+                    </div>
+                </div>
+            </article>
+
+            <article class="menu-item" data-category="pastries">
+                <img src="images/croissant.jpg.jpg" alt="Golden butter croissant">
+                <div class="product-details">
+                    <span class="product-category">PASTRIES</span>
+                    <h3>Butter Croissant</h3>
+                    <p>A flaky, golden pastry with a delicious buttery taste.</p>
+                    <div class="product-bottom">
+                        <strong>R15.00</strong>
+                        <button class="add-to-cart" data-name="Butter Croissant" data-price="15">
+                            Add to Cart
+                        </button>
+                    </div>
+                </div>
+            </article>
+
+            <article class="menu-item" data-category="treats">
+                <img src="images/cupcake.jpg.jpg" alt="Decorated vanilla cupcakes">
+                <div class="product-details">
+                    <span class="product-category">SWEET TREATS</span>
+                    <h3>Vanilla Cupcakes</h3>
+                    <p>Light and fluffy cupcakes topped with creamy icing.</p>
+                    <div class="product-bottom">
+                        <strong>R20.00</strong>
+                        <button class="add-to-cart" data-name="Vanilla Cupcakes" data-price="20">
+                            Add to Cart
+                        </button>
+                    </div>
+                </div>
+            </article>
+
+            <article class="menu-item" data-category="cakes">
+                <img src="images/chocolate.jpg.jpg" alt="Rich chocolate cake">
+                <div class="product-details">
+                    <span class="product-category">CAKES</span>
+                    <h3>Chocolate Cake</h3>
+                    <p>A rich chocolate cake for every special occasion.</p>
+                    <div class="product-bottom">
+                        <strong>R180.00</strong>
+                        <button class="add-to-cart" data-name="Chocolate Cake" data-price="180">
+                            Add to Cart
+                        </button>
+                    </div>
+                </div>
+            </article>
+
+            <article class="menu-item" data-category="treats">
+                <img src="images/croissant.jpg.jpg" alt="Freshly glazed croissant">
+                <div class="product-details">
+                    <span class="product-category">SWEET TREATS</span>
+                    <h3>Glazed croissant</h3>
+                    <p>Soft, delicious croissant finished with sweet glaze.</p>
+                    <div class="product-bottom">
+                        <strong>R12.00</strong>
+                        <button class="add-to-cart" data-name="Glazed croissant" data-price="12">
+                            Add to Cart
+                        </button>
+                    </div>
+                </div>
+            </article>
+
+            <article class="menu-item" data-category="treats">
+                <img src="images/lemon.jpg.jpg" alt="Freshly baked lemon cake">
+                <div class="product-details">
+                    <span class="product-category">SWEET TREATS</span>
+                    <h3>Lemon Cake</h3>
+                    <p>Moist lemon Cake baked fresh for you.</p>
+                    <div class="product-bottom">
+                        <strong>R18.00</strong>
+                        <button class="add-to-cart" data-name="Lemon cake" data-price="18">
+                            Add to Cart
+                        </button>
+                    </div>
+                </div>
+            </article>
+
+            <article class="menu-item" data-category="pastries">
+                <img src="images/sourdough.jpg.jpg" alt="Fresh sourdough bread">
+                <div class="product-details">
+                    <span class="product-category">PASTRIES</span>
+                    <h3>Sourdough Bread</h3>
+                    <p>Soft rolls with cinnamon filling and sweet icing.</p>
+                    <div class="product-bottom">
+                        <strong>R22.00</strong>
+                        <button class="add-to-cart" data-name="Sourdough Bread" data-price="22">
+                            Add to Cart
+                        </button>
+                    </div>
+                </div>
+            </article>
+
+            <article class="menu-item" data-category="cakes">
+                <img src="images/custom cake.jpg.jpg" alt="Custom celebration cake">
+                <div class="product-details">
+                    <span class="product-category">SPECIAL ORDERS</span>
+                    <h3>Custom Celebration Cake</h3>
+                    <p>A personalised cake for birthdays and special events.</p>
+                    <div class="product-bottom">
+                        <strong>From R250.00</strong>
+                        <a href="enquiry.html" class="order-button">Enquire</a>
+                    </div>
+                </div>
+            </article>
+
+        </div>
+
+        <p id="noProducts" class="no-products" hidden>
+            No products found. Try another search or category.
+        </p>
+
+    </section>
+
+    
+<section class="cart-section" id="shoppingCart">
+
+    <div class="cart-heading">
+        <span>YOUR ORDER</span>
+        <h2>Shopping Cart</h2>
+        <p>Review your selected products before placing your order.</p>
+    </div>
+
+    <div id="cartItems" class="cart-items">
+        <p class="empty-cart">Your shopping cart is currently empty.</p>
+    </div>
+
+    <div class="cart-bottom">
+        <a href="checkout.html"
+   id="proceedToCheckout"
+   class="proceed-checkout"
+   hidden>
+    Proceed to Checkout →
+</a>
+
+    <button type="button" id="clearCart" class="clear-cart-btn">
+        Clear Cart
+    </button>
+
+    <div class="cart-total">
+        <span>Total:</span>
+        <strong id="cartTotal">R0.00</strong>
+    </div>
+
+    <a href="checkout.html" id="proceedToCheckout"
+       class="proceed-checkout" hidden>
+        Proceed to Checkout →
+    </a>
+
+</div>
+</a>
+</a>
+    </div>
+
+    <div class="checkout-section">
+        <h3>Customer Details</h3>
+        <p>Please provide your details to place your order.</p>
+
+        <form id="checkoutForm">
+
+            <div class="checkout-field">
+                <label for="customerName">Full Name *</label>
+                <input type="text" id="customerName"
+                       placeholder="Enter your full name" required>
+            </div>
+
+            <div class="checkout-field">
+                <label for="customerEmail">Email Address *</label>
+                <input type="email" id="customerEmail"
+                       placeholder="Enter your email address" required>
+            </div>
+
+            <div class="checkout-field">
+                <label for="customerPhone">Phone Number *</label>
+                <input type="tel" id="customerPhone"
+                       placeholder="Enter your phone number" required>
+            </div>
+
+            <div class="checkout-field">
+                <label for="collectionDate">Preferred Collection Date *</label>
+                <input type="date" id="collectionDate" required>
+            </div>
+
+            <div class="checkout-field">
+                <label for="orderNotes">Additional Instructions</label>
+                <textarea id="orderNotes" rows="3"
+                          placeholder="Any special instructions?"></textarea>
+            </div>
+
+            <button type="submit" class="place-order-btn">
+                Place My Order
+            </button>
+
+            <p id="orderMessage" aria-live="polite"></p>
+
+        </form>
+    </div>
+
+</section>
+
+</main>
+
+<footer class="menu-footer">
+    <h3>The Daily Loaf Bakery</h3>
+    <p>Freshly baked, made with love.</p>
+    <p>&copy; 2026 The Daily Loaf Bakery. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
+

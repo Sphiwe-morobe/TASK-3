@@ -1,0 +1,162 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Contact Us | The Daily Loaf Bakery</title>
+    <meta name="description" content="Contact The Daily Loaf Bakery for general questions, feedback and assistance.">
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+<header class="page-header">
+    <div class="page-header-content">
+        <h1>The Daily Loaf Bakery</h1>
+        <p>Freshly baked, made with love.</p>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="menu.html">Menu</a>
+            <a href="enquiry.html">Enquiry</a>
+            <a href="contact.html" class="active">Contact</a>
+            <a href="checkout.html">Checkout</a>
+        </nav>
+    </div>
+</header>
+
+<main class="professional-page">
+
+    <section class="form-intro">
+        <span class="small-heading">WE WOULD LOVE TO HEAR FROM YOU</span>
+        <h2>Contact Us</h2>
+        <p>
+            Have a question, suggestion or feedback?
+            Send us a message using the form below.
+        </p>
+    </section>
+
+    <section class="professional-form-section">
+
+        <div class="form-side-info">
+            <h3>Get in Touch</h3>
+            <p>
+                Our bakery is here to help with your questions and feedback.
+                Contact us using the details below.
+            </p>
+
+            <div class="info-detail">
+                <strong>Email</strong>
+                <p>thedailyloafbakery@gmail.com</p>
+            </div>
+
+            <div class="info-detail">
+                <strong>Phone</strong>
+                <p>0796981234</p>
+            </div>
+
+            <div class="info-detail">
+                <strong>Location</strong>
+                <p>5 Quince Street, Braamfontein Werf, Johannesburg, 2092</p>
+            </div>
+
+            <div class="info-detail">
+                <strong>Business Hours</strong>
+                <p>7am-17pm</p>
+            </div>
+        </div>
+
+        <div class="form-content">
+            <h3>Send Us a Message</h3>
+            <p class="form-description">We welcome your questions and feedback.</p>
+
+            <form id="contactForm">
+
+                <div class="form-group">
+                    <label for="contactName">Full Name *</label>
+                    <input type="text" id="contactName"
+                           placeholder="Enter your full name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="contactEmail">Email Address *</label>
+                    <input type="email" id="contactEmail"
+                           placeholder="example@email.com" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="messageType">Message Type *</label>
+                    <select id="messageType" required>
+                        <option value="">Select message type</option>
+                        <option value="General Question">General Question</option>
+                        <option value="Feedback">Feedback</option>
+                        <option value="Complaint">Complaint</option>
+                        <option value="Other">Other</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="contactMessage">Your Message *</label>
+                    <textarea id="contactMessage" rows="6"
+                              placeholder="Write your message here..."
+                              required></textarea>
+                </div>
+
+                <button type="submit" class="professional-btn">
+                    Send Message
+                </button>
+
+                <p id="contactResult" class="form-result" aria-live="polite"></p>
+
+            </form>
+        </div>
+
+    </section>
+
+<section class="contact-map-section">
+
+    <div class="contact-map-heading">
+        <span>FIND US</span>
+        <h2>Visit Our Bakery</h2>
+        <p>Find our sample Johannesburg location on the map.</p>
+    </div>
+
+    <div class="contact-map-container">
+        <iframe
+            src="https://www.google.com/maps?q=5%20Quince%20Street%2C%20Braamfontein%20Werf%2C%20Johannesburg&output=embed"
+            width="100%"
+            height="400"
+            style="border:0;"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            title="Sample bakery location in Johannesburg">
+        </iframe>
+    </div>
+
+    <div class="map-address">
+        
+        <p>5 Quince Street, Braamfontein Werf, Johannesburg, 2092</p>
+
+        <a href="https://www.google.com/maps/search/?api=1&query=5%20Quince%20Street%2C%20Braamfontein%20Werf%2C%20Johannesburg"
+           target="_blank" rel="noopener">
+            Get Directions
+        </a>
+    </div>
+
+</section>
+
+</main>
+
+<footer class="professional-footer">
+    <p>&copy; 2026 The Daily Loaf Bakery. All rights reserved.</p>
+</footer>
+<script src="script.js" defer></script>
+</body>
+</html>
+

@@ -1,0 +1,295 @@
+ The Daily Loaf Bakery Website
+
+ 1. Project Overview
+
+The Daily Loaf Bakery is a bakery website developed to provide customers with information about the bakery, its products and services.
+
+The website uses a warm and welcoming design with light beige, warm cream, cream-white and soft golden-brown colours. It is designed to be simple, professional and easy to navigate.
+
+The website was developed using HTML5, CSS3 and JavaScript to create a functional and interactive online presence for the bakery.
+
+ 2. Purpose of the Website
+
+The purpose of The Daily Loaf Bakery website is to:
+
+- Introduce the bakery to potential customers.
+- Display the bakery's products and menu with prices.
+- Provide information about the bakery and its services.
+- Allow customers to make enquiries.
+- Provide contact details and opening hours.
+- Display the bakery's location using Google Maps.
+- Allow customers to add products to a shopping cart.
+- Provide a checkout process for customer orders.
+- Improve the bakery's online presence.
+
+ 3. Website Pages
+
+The website consists of the following pages:
+
+ Home Page – index.html
+
+The Home page introduces The Daily Loaf Bakery. It contains a welcome section, bakery images, navigation links and information about the business.
+
+ About Page – about.html
+
+The About page provides information about the bakery, including its background, values and services.
+
+ Menu Page – menu.html
+
+The Menu page displays the bakery's products and prices. Customers can search for products, browse product categories and add selected products to the shopping cart.
+
+ Enquiry Page – enquiry.html
+
+The Enquiry page contains a form that allows customers to send enquiries about bakery products, custom cakes and special orders.
+
+ Contact Page – contact.html
+
+The Contact page provides the bakery's contact information, opening hours and location. An embedded Google Map helps visitors identify the bakery's location.
+
+ Checkout Page – checkout.html
+
+The Checkout page allows customers to review their selected products, view the order total and provide their contact and collection details.
+
+ 4. Technologies Used
+
+The website was developed using the following technologies:
+
+- HTML5: Used to create the structure and content of the website.
+- CSS3:Used to style the website, including colours, layouts, navigation, buttons and images.
+- JavaScript: Used to add interactive features, shopping cart functionality, search and form validation.
+- Google Maps: Used to display the bakery's location on the Contact page.
+- Web Browser: Used to view and test the website.
+
+ 5. Website Design and Layout
+
+The website uses a bakery-inspired colour scheme consisting of:
+
+- Light Beige
+- Warm Cream
+- Cream White
+- Soft Golden Brown
+- Brown
+
+These colours create a warm and welcoming appearance that suits a bakery business.
+
+The same colour scheme and styling are used throughout the website to maintain consistency. Navigation links allow visitors to move between the different pages.
+
+The website also uses images to make the pages more attractive and to showcase bakery products.
+
+ 6. JavaScript Functionality
+
+JavaScript was added to improve the functionality and interaction of the website.
+
+The JavaScript features include:
+
+ 6.1 Shopping Cart
+
+The shopping cart allows customers to:
+
+- Add bakery products to the cart.
+- Increase product quantities.
+- Remove products from the cart.
+- Clear all products from the cart.
+- View the total price of selected products.
+
+The shopping cart uses browser local storage to retain cart information when customers move between the menu and checkout pages.
+
+ 6.2 Product Search and Categories
+
+The Menu page includes a search function that allows customers to search for bakery products.
+
+Customers can also filter products according to categories, making it easier to find specific items.
+
+6.3 Checkout Functionality
+
+The checkout page displays the selected products and their total cost. Customers can enter their details and provide collection information.
+
+The checkout process uses JavaScript to display the order information and prepare an email order request.
+
+Note: The checkout process prepares an email request. It does not process online payments.*
+
+ 6.4 Form Validation
+
+JavaScript is used to check customer form information before submission.
+
+Form validation helps ensure that required information is entered correctly. It also helps display messages when information is missing or invalid.
+
+ 7. HTML Forms
+
+HTML forms are used to collect information from customers.
+
+The website includes:
+
+- Enquiry Form: Allows customers to ask questions about products and special orders.
+- Contact Form: Allows visitors to send messages to the bakery.
+- Checkout Form: Collects customer details and order collection information.
+
+The forms contain suitable input fields, labels and buttons to make them easy to complete.
+
+JavaScript validation is used to improve the accuracy of information entered into the forms.
+
+ 8. Search Engine Optimisation (SEO)
+
+Search Engine Optimisation (SEO) helps improve the visibility of a website in search engine results.
+
+The following SEO practices are included or should be checked across the website:
+
+- Each page should have a relevant and descriptive page title.
+- Meta descriptions should summarise the content of each page.
+- Heading elements should be organised correctly.
+- Images should contain descriptive alternative text (alt text).
+- HTML elements should be used appropriately.
+- The website should have clear navigation links.
+- The robots.txt file provides instructions for search engine crawlers.
+- The sitemap.xml file lists the main website pages for search engine discovery.
+
+The website uses the name The Daily Loaf Bakery consistently to help identify the business.
+
+ 9. Images
+
+Images are used throughout the website to make the pages more visually appealing and to display bakery products.
+
+The main bakery logo is stored in the images folder:
+
+`images/Bakery Logo.jpg.jpg`
+
+The main bakery image is stored in:
+
+`images/bakery.jpg`
+
+Other product images are stored in the same images folder.
+
+Alternative text is used for images to describe their content and improve accessibility.
+
+10. Navigation
+
+The main navigation menu contains five main website pages:
+
+- Home
+- About
+- Menu
+- Enquiry
+- Contact
+
+Each page is connected using HTML hyperlinks.
+
+The navigation structure allows visitors to move easily between the pages and access the information they need.
+
+ 11. Contact Map
+
+The Contact page contains an embedded Google Map to help visitors identify the bakery's location.
+
+The map is displayed using an HTML iframe and Google Maps Embed functionality.
+
+12. Website Testing
+
+The website should be tested in a web browser to check that its pages and features work correctly.
+
+The following areas should be tested:
+
+- All navigation links open the correct pages.
+- Images display correctly.
+- The website uses consistent colours and styling.
+- The product search returns relevant results.
+- Product category buttons filter the menu correctly.
+- Products can be added to the shopping cart.
+- Cart quantities and totals update correctly.
+- Products can be removed from the cart.
+- Cart information remains available when moving to checkout.
+- Forms identify missing or invalid information.
+- The checkout page displays the correct order information.
+- The Contact page displays the embedded map.
+- The website displays correctly in the selected web browser.
+
+ 13. Website Deployment
+
+The website can be published using a free hosting platform such as Netlify or GitHub Pages.
+
+The website files should be uploaded with the correct folder structure so that all HTML pages, CSS, JavaScript and images work correctly.
+
+After deployment, the published website link should be tested to confirm that all pages, images and interactive features work correctly.
+
+Published Website URL: [Insert your actual deployed website link here]
+
+Hosting Platform:** [Insert Netlify or GitHub Pages]
+
+14. Website Folder Structure
+
+The project is organised as follows:
+
+```text
+The-Daily-Loaf-Bakery/
+|
+|-- index.html
+|-- about.html
+|-- menu.html
+|-- enquiry.html
+|-- contact.html
+|-- checkout.html
+|
+|-- style.css
+|-- script.js
+|-- checkout.js
+|
+|-- robots.txt
+|-- sitemap.xml
+|-- README.md
+|
+|-- images/
+    |-- Bakery Logo.jpg.jpg
+    |-- bakery.jpg
+    |-- chef.jpg.jpg
+    |-- chocolate.jpg.jpg
+    |-- croissant.jpg.jpg
+    |-- cupcake.jpg.jpg
+    |-- lemon.jpg.jpg
+    |-- sourdough.jpg.jpg
+    |-- white bread.jpg.jpg
+```
+
+ 15. Changelog – Part 3 Updates
+
+The following changes and improvements were made as part of Part 3 of the WEDE5020 POE project.
+
+| Area | Changes and Improvements |
+|---|---|
+| JavaScript | Added JavaScript functionality to improve website interaction. |
+| Shopping Cart | Added the ability to add products, update quantities, remove products and calculate the total. |
+| Local Storage | Used browser local storage to retain shopping cart information. |
+| Product Search | Added a search feature to help customers find products. |
+| Product Categories | Added category filtering to organise bakery products. |
+| Checkout | Added a checkout page where customers can review their orders and enter their details. |
+| HTML Forms | Added customer enquiry, contact and checkout forms. |
+| Form Validation | Added JavaScript validation to check customer information. |
+| SEO | Included SEO-related improvements such as page titles, meta descriptions, image alt text and sitemap information. |
+| Sitemap | Added a sitemap.xml file listing the main website pages. |
+| Robots File | Added a robots.txt file to provide instructions for search engine crawlers. |
+| README | Updated the README file to document the website structure, technologies, features and Part 3 improvements. |
+
+Note: The changelog should reflect the changes actually completed in your website. Add any corrections made from your Part 2 lecturer feedback, including what was changed and why.
+
+ 16. Conclusion
+
+The Daily Loaf Bakery website provides customers with an easy and convenient way to learn about the bakery, view its products, make enquiries and find contact information.
+
+Part 3 improvements have focused on adding JavaScript functionality, improving customer interaction, implementing forms and validation, and applying SEO practices.
+
+The shopping cart, product search and checkout features help make the website more interactive and user-friendly.
+
+Overall, the project demonstrates the use of HTML5, CSS3 and JavaScript to develop a professional bakery website.
+
+17. References
+
+Mozilla Developer Network (MDN) (n.d.) *HTML: HyperText Markup Language*. Available at: https://developer.mozilla.org/en-US/docs/Web/HTML (Accessed: 17 September 2026).
+
+Mozilla Developer Network (MDN) (n.d.) *Semantic HTML*. Available at: https://developer.mozilla.org/en-US/curriculum/core/semantic-html/ (Accessed: 17 September 2026).
+
+Mozilla Developer Network (MDN) (n.d.) *Forms and buttons in HTML*. Available at: https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content/HTML_forms (Accessed: 17 September 2026).
+
+Mozilla Developer Network (MDN) (n.d.) *Images, media, and form elements*. Available at: https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/Images_media_forms (Accessed: 17 September 2026).
+
+Mozilla Developer Network (MDN) (n.d.) *JavaScript*. Available at: https://developer.mozilla.org/en-US/docs/Web/JavaScript (Accessed: 17 September 2026).
+
+Google for Developers (n.d.) *The Maps Embed API quickstart*. Available at: https://developers.google.com/maps/documentation/embed/quickstart (Accessed: 17 September 2026).
+
+Google for Developers (n.d.) *Embed a map*. Available at: https://developers.google.com/maps/documentation/embed/embedding-map (Accessed: 17 September 2026).

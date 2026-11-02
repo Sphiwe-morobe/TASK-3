@@ -1,0 +1,96 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Complete your order at The Daily Loaf Bakery.">
+    <title>Checkout | The Daily Loaf Bakery</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="checkout.js" defer></script>
+</head>
+<body>
+
+<header class="checkout-header">
+    <a href="index.html" class="checkout-logo">The Daily Loaf Bakery</a>
+    <p>Freshly baked with love</p>
+</header>
+
+<main class="checkout-container">
+    <div class="checkout-heading">
+        <h1>Complete Your Order</h1>
+        <p>We are excited to prepare something delicious for you!</p>
+    </div>
+
+    <div class="checkout-layout">
+
+        <section class="checkout-card">
+            <h2>Customer Details</h2>
+
+            <form id="checkoutForm">
+                <label for="customerName">Full Name</label>
+                <input type="text" id="customerName" required
+                       placeholder="Enter your full name">
+
+                <label for="customerEmail">Email Address</label>
+                <input type="email" id="customerEmail" required
+                       placeholder="Enter your email">
+
+                <label for="customerPhone">Phone Number</label>
+                <input type="tel" id="customerPhone" required
+                       placeholder="Enter your phone number">
+
+                <h2>Collection Details</h2>
+
+                <label for="collectionDate">Collection Date</label>
+                <input type="date" id="collectionDate" required>
+
+                <label for="collectionTime">Collection Time</label>
+                <input type="time" id="collectionTime" required>
+
+                <label for="orderNotes">Special Instructions</label>
+                <textarea id="orderNotes" rows="4"
+                          placeholder="Any special requests?"></textarea>
+
+                <button type="submit" class="place-order-btn">
+                    Place Order
+                </button>
+
+                <p id="orderMessage" aria-live="polite"></p>
+            </form>
+        </section>
+
+        <aside class="checkout-card order-summary">
+            <h2>Your Order</h2>
+
+            <div id="checkoutItems">
+                <p>Your cart is empty.</p>
+            </div>
+
+            <div class="summary-total">
+                <span>Total</span>
+                <strong id="checkoutTotal">R0.00</strong>
+            </div>
+
+            <a href="menu.html" class="back-to-menu">
+                ← Continue Shopping
+            </a>
+        </aside>
+
+    </div>
+</main>
+<div class="footer-links">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="menu.html">Menu</a>
+        <a href="contact.html">Contact</a>
+        <a href="checkout.html">Checkout</a>
+    </div>
+
+<footer class="checkout-footer">
+    <p>&copy; 2026 The Daily Loaf Bakery. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
+
