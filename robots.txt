@@ -1,6 +1,6 @@
-
 User-agent: *
 Allow: /
 
-Sitemap: https://www.yourdomain.co.za/sitemap.xml
+Sitemap: https://sphiwe-morobe.github.io/TASK-3/sitemap.xml
+
 
